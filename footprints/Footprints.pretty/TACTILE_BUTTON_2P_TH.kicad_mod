@@ -1,0 +1,172 @@
+(footprint "TACTILE_BUTTON_2P_TH"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TYCO SWITCH")
+	(property "Reference" "REF**"
+		(at -2.54 -5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9fa65725-1437-4f38-bff0-ecb07f2e7b3c")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "TACTILE_BUTTON_2P_TH"
+		(at -2.54 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eff8fc4c-aaf9-4d84-b60f-caf1658f7987")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da7a272b-7dc3-4b64-9b3b-f9abb1629e9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e89e4716-d448-414e-aa19-5e8b37c2dce7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.175 -3.175)
+		(end 3.175 -3.175)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0793c254-b489-4a94-a0c5-b2d3de090c20")
+	)
+	(fp_line
+		(start -3.175 3.175)
+		(end -3.175 -3.175)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfa47e2c-efea-4e7f-bbf1-63e1b194a5f7")
+	)
+	(fp_line
+		(start 3.175 -3.175)
+		(end 3.175 3.175)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0aff5859-0b08-4467-adf2-b4adfa15fe45")
+	)
+	(fp_line
+		(start 3.175 3.175)
+		(end -3.175 3.175)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74066154-0230-423d-b341-983bea65a586")
+	)
+	(fp_circle
+		(center -2.6988 -2.6988)
+		(end -2.4743 -2.6988)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cc3c531d-75d9-4083-8491-6764cac08ff0")
+	)
+	(fp_circle
+		(center -2.6988 2.6988)
+		(end -2.4743 2.6988)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5a7cb344-b531-4f9d-8bb3-be3afff572f1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.3114 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "188e8175-003e-44df-978d-460d7952d515")
+	)
+	(fp_circle
+		(center 2.6988 -2.6988)
+		(end 2.9233 -2.6988)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c65687f7-f0f3-4b75-96ce-61205b874a86")
+	)
+	(fp_circle
+		(center 2.6988 2.6988)
+		(end 2.9232 2.6988)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "69e1e276-bdb8-4944-9ab8-91030a9f1c04")
+	)
+	(pad "P$1" thru_hole circle
+		(at 0 -3.175)
+		(size 2.1844 2.1844)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "e55b1c04-5666-49ba-9577-a600154bc0e1")
+	)
+	(pad "P$2" thru_hole circle
+		(at 0 3.175)
+		(size 2.1844 2.1844)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "4bda16e6-4b41-4cd6-b8e8-6b89b1d6bff4")
+	)
+	(embedded_fonts no)
+)

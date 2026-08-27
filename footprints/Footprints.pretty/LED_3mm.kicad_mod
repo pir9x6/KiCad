@@ -1,0 +1,348 @@
+(footprint "LED_3mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LED\n\n3 mm, round")
+	(property "Reference" "REF**"
+		(at 1.905 -0.381 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "77c39106-d568-4e6e-8b53-d1e4c81f718c")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "LED_3mm"
+		(at 1.905 3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "99262d07-9a14-497d-94d7-dd8c7192c5a5")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "620c614a-a25f-4e43-9f11-bc7fc3df80b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78e0cbd9-bf04-4406-9434-99711b8c07ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_arc
+		(start -1.7929 -0.9562)
+		(mid -1.045438 -1.7424)
+		(end 0 -2.032)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e29da1f-e01f-4194-986d-47f5fb3d7eb4")
+	)
+	(fp_arc
+		(start 0 -2.032)
+		(mid 0.861864 -1.840173)
+		(end 1.561 -1.3009)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1be8990c-1990-4302-a4f8-d2534443875c")
+	)
+	(fp_arc
+		(start 0 2.032)
+		(mid -1.019924 1.757525)
+		(end -1.7643 1.0082)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2c02976-848f-490f-9765-7ee2f500873a")
+	)
+	(fp_arc
+		(start 1.5512 1.3126)
+		(mid 0.854953 1.843405)
+		(end 0 2.032)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1d9a5e4-c9d1-4c0b-944c-00e928a2613f")
+	)
+	(fp_line
+		(start 1.5748 1.27)
+		(end 1.5748 -1.27)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50c91339-09b4-4e48-86c2-260d51f73024")
+	)
+	(fp_arc
+		(start -2.032 0)
+		(mid -1.970339 -0.496775)
+		(end -1.7891 -0.9634)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa5c8b7f-4313-4937-ac35-69d638375b6f")
+	)
+	(fp_arc
+		(start -1.7306 1.065)
+		(mid -1.95521 0.553417)
+		(end -2.032 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dce95f4b-0cde-46d0-9ca1-29897845a8e0")
+	)
+	(fp_arc
+		(start -1.524 0)
+		(mid -1.432981 -0.518783)
+		(end -1.1708 -0.9756)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e893c897-46a1-42f6-ab30-83440ab99f98")
+	)
+	(fp_arc
+		(start -1.2192 -0.9144)
+		(mid -0.681554 -1.363107)
+		(end 0 -1.524)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00d88f5a-14a8-4591-9daf-716e6478362c")
+	)
+	(fp_arc
+		(start -1.1391 1.0125)
+		(mid -1.42454 0.5416)
+		(end -1.524 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae8d83de-ee63-49f0-b383-82f12ff2c2c0")
+	)
+	(fp_arc
+		(start -1.016 0)
+		(mid -0.71842 -0.71842)
+		(end 0 -1.016)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ac9619d-6f41-4bbc-b37e-b1e649849058")
+	)
+	(fp_arc
+		(start -0.635 0)
+		(mid -0.449013 -0.449013)
+		(end 0 -0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54a2c6d9-11ac-4e1c-bad6-1bb22d99ae88")
+	)
+	(fp_arc
+		(start 0 -1.524)
+		(mid 0.697339 -1.355082)
+		(end 1.2401 -0.885801)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "397dadfa-91ed-4671-8afe-6a8028f48e07")
+	)
+	(fp_arc
+		(start 0 1.524)
+		(mid -0.669593 1.369018)
+		(end -1.203 0.9356)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c337d06-bad4-4176-9fa7-8e48624a2f53")
+	)
+	(fp_arc
+		(start 0.635 0)
+		(mid 0.449013 0.449013)
+		(end 0 0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e598f63-559f-49cf-8633-a9292040be16")
+	)
+	(fp_arc
+		(start 1.016 0)
+		(mid 0.71842 0.71842)
+		(end 0 1.016)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8608ea4-b146-4eba-9987-d9b55b30dd0f")
+	)
+	(fp_arc
+		(start 1.1571 -0.9918)
+		(mid 1.429332 -0.528744)
+		(end 1.524 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "349dc506-cc75-4a12-9633-0a18c9da54cf")
+	)
+	(fp_arc
+		(start 1.203 0.9356)
+		(mid 0.669593 1.369018)
+		(end 0 1.524)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e48d5d28-e876-40eb-b053-a2974ac95b6f")
+	)
+	(fp_arc
+		(start 1.524 0)
+		(mid 1.432981 0.518783)
+		(end 1.1708 0.9756)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71172ea2-796e-478f-9cc8-926b765a411c")
+	)
+	(fp_text user "K"
+		(at 1.936902 1.57988 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "45a4af2e-1d13-4ea6-b71e-50c00747ba20")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "A" thru_hole roundrect
+		(at -1.27 0)
+		(size 1.4224 1.4224)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "50eebd64-eb4d-4ed7-b035-0124c6557a41")
+	)
+	(pad "K" thru_hole roundrect
+		(at 1.27 0)
+		(size 1.4224 1.4224)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "127b6c9f-b9cf-4085-8eff-9161f7a2d1f1")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/LED_3.0mm_Blue.step"
+		(offset
+			(xyz 1.25 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+	(model "${KICAD10_3DMODEL_DIR}/LED_3.0mm_Green.step"
+		(offset
+			(xyz 1.5 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+	(model "${KICAD10_3DMODEL_DIR}/LED_3.0mm_Yellow.step"
+		(offset
+			(xyz 1.5 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+	(model "${KICAD10_3DMODEL_DIR}/LED_3.0mm_Red.step"
+		(offset
+			(xyz 1.5 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

@@ -1,0 +1,122 @@
+(footprint "LED_5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LED\n\n5 mm, round")
+	(property "Reference" "REF**"
+		(at -3.175 -3.7084 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5e5a9104-532c-49ae-99d5-ce80d9ea0bc1")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "LED_5mm"
+		(at -3.7846 4.9784 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b84f3c8-7c7b-4361-9689-14336f1e87ca")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52ceb8cb-e0a7-4822-bf6b-7e3c946b2cc7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e565b4b-d6db-4d5d-9b0c-2823c77cff9c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 2.54 1.905)
+		(end 2.54 -1.905)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "32c31585-4f3a-45ed-9576-539345e3c2ba")
+	)
+	(fp_arc
+		(start 2.54 1.905)
+		(mid -3.175 0)
+		(end 2.54 -1.905)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d818a84-ab9c-4217-8591-7890e29fbf49")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "289978fb-36cb-4ddd-ba22-3eefa7a712d0")
+	)
+	(fp_text user "K"
+		(at 2.54 0.508 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9dfd1aef-fee0-491a-8bc3-25368c57f367")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "A" thru_hole oval
+		(at -1.27 0 90)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "4b0448f2-8ba4-480d-aa6a-e30ee5908a2a")
+	)
+	(pad "K" thru_hole oval
+		(at 1.27 0 90)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "5b1ab383-6ec6-4e62-8ea1-ec1fac16bd4c")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "clock_led_7seg_orange_3mm_v1-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/clock_led_7seg_orange_3mm_v1-eagle-import.kicad_sym") (options "") (descr ""))
+)
