@@ -4,14 +4,14 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -0.889 -1.016 0)
+		(at -1.905 -1.016 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "eb9939fe-95f3-4d2b-b8ad-1d2b475c77e4")
+		(uuid "b8ffd9f5-3592-468d-b704-d7311937b7a2")
 		(effects
 			(font
-				(size 0.747776 0.747776)
-				(thickness 0.065024)
+				(size 1 1)
+				(thickness 0.2)
 			)
 			(justify left bottom)
 		)
@@ -20,7 +20,7 @@
 		(at -1.905 1.905 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "72b694a3-ccc9-4052-ad1d-962f87659457")
+		(uuid "51361d36-240d-42dd-883e-0cc6ffdd0f63")
 		(effects
 			(font
 				(size 0.747776 0.747776)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "38f66e44-db65-4ce4-9705-5c9680eccce6")
+		(uuid "85c73f4f-35a9-4179-95f0-74555f9b0b44")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b1bad894-3896-4ff9-8f3d-7dcc8b8a1e7d")
+		(uuid "fc656d42-d7f3-491b-8995-687c13c5fa63")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "92b1b8de-289b-406e-bb4d-7f3487542748")
+		(uuid "f68e64f5-d6a1-4b58-b452-3eaf97dfbafd")
 	)
 	(fp_line
 		(start -0.356 0.66)
@@ -71,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b0fafaa8-9e62-48c4-aff5-3e3bff0716a6")
+		(uuid "86ba58ec-eed1-4d8d-81a4-01275baed088")
 	)
 	(pad "1" smd rect
 		(at -0.85 0)
@@ -80,7 +80,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "73e4755a-b7b1-49e9-a35c-b294a9cb7d90")
+		(uuid "6bcfaa2d-7594-463d-9d91-a224592ef240")
 	)
 	(pad "2" smd rect
 		(at 0.85 0)
@@ -89,7 +89,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "f2ae9b93-1b58-4fd8-89db-d8bf6b5a07cf")
+		(uuid "d2b84b14-04a4-4502-bc85-8f12f0ac2ef9")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/C0805.step"

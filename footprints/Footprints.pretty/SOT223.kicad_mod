@@ -7,11 +7,11 @@
 		(at 2.54 -2.54 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "c1501f56-99fb-4f14-88f9-03549d1d5e42")
+		(uuid "a2fdb38f-93a7-4b5b-bfc7-bab1f29f0865")
 		(effects
 			(font
 				(size 1.1684 1.1684)
-				(thickness 0.1016)
+				(thickness 0.2)
 			)
 			(justify left bottom)
 		)
@@ -20,7 +20,7 @@
 		(at -3.175 6.35 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e3823775-933f-408c-ac3f-6fb76aada08e")
+		(uuid "1230541a-6800-4ffe-b62b-3ec7668fdc3f")
 		(effects
 			(font
 				(size 1.1684 1.1684)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6d788a03-7ff0-437c-b564-829328942aa6")
+		(uuid "4ef28f0b-9657-4985-9d47-078c7d89c951")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0f8599b4-deae-4ecb-afa2-9778402ead32")
+		(uuid "20213098-190e-4c23-9140-b1fba12a7e3e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "19d6a6f9-4371-430e-9479-ffdfc0f07b9f")
+		(uuid "a8e0744b-6ee5-44fa-b25c-71316c4eba50")
 	)
 	(fp_line
 		(start -3.277 1.778)
@@ -70,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ac6c38c2-878f-4578-8584-43112bbc3390")
+		(uuid "f7dd0393-3ca1-4cab-9e1c-178d3c25a4c7")
 	)
 	(fp_line
 		(start 3.277 -1.778)
@@ -80,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3147c7dc-3167-442d-86e8-b6a5e85d46cd")
+		(uuid "4c26a2a8-ec94-4feb-b5a3-f9c56549d556")
 	)
 	(fp_line
 		(start 3.277 1.778)
@@ -90,7 +90,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cf95d65e-8b81-4786-87ca-78e9b4fae7a8")
+		(uuid "c527e098-cdcc-4430-b908-47ae0d730fa8")
 	)
 	(fp_poly
 		(pts
@@ -102,7 +102,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "9c9760d2-3b95-4a3c-ab1d-90b4d7256601")
+		(uuid "9a6d8c70-534a-4fe6-acc6-9ce57806353f")
 	)
 	(fp_poly
 		(pts
@@ -114,7 +114,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "f5a961e1-31b5-46af-86a1-8b6edc2cb1f6")
+		(uuid "d3ecd5f5-11f1-436f-bd64-c0005a144a35")
 	)
 	(fp_poly
 		(pts
@@ -126,7 +126,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "2b8f2dd0-4057-47f8-bbcd-8f97753eefe7")
+		(uuid "5c6db021-6863-47be-b865-89103358313a")
 	)
 	(fp_poly
 		(pts
@@ -138,7 +138,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "ec1560a2-4bf6-4aa3-a6e0-f1067baaabbe")
+		(uuid "d15fd459-ff65-41a9-9b88-b164f526f6fd")
 	)
 	(fp_poly
 		(pts
@@ -150,7 +150,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "890ec629-7b3a-4830-9ff6-61a20ceaa47d")
+		(uuid "8794b86d-3de7-4c4e-9ed0-21469418b669")
 	)
 	(fp_poly
 		(pts
@@ -162,7 +162,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "cf6243fa-6e54-44a7-9833-ec4547731eda")
+		(uuid "b6d05754-f836-49ae-be4d-ddc2d7781edd")
 	)
 	(fp_poly
 		(pts
@@ -174,7 +174,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "455d4037-e51a-49f4-9fb9-5cce1e1a8809")
+		(uuid "1329c1b4-f3cd-4cda-acdb-89c233481fbb")
 	)
 	(fp_poly
 		(pts
@@ -186,7 +186,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "ce834b9f-2ad2-4526-9e1c-58371e59cace")
+		(uuid "822de1b9-68cf-4fea-9c09-b3deb0c2e058")
 	)
 	(pad "1" smd rect
 		(at -2.3 3.099)
@@ -195,7 +195,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "46a272d7-88d4-428b-b40b-af9b60ff38e8")
+		(uuid "cad19996-8045-4244-abdb-f6f8f4330460")
 	)
 	(pad "2" smd rect
 		(at 0 3.099)
@@ -204,7 +204,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "16ed2737-cc55-43b1-b884-c3e8b8a55c1f")
+		(uuid "7dadd650-f3ed-4a8b-92c3-e27ee69b7f42")
 	)
 	(pad "3" smd rect
 		(at 2.3 3.099)
@@ -213,7 +213,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "116704ed-9a1a-46e0-a424-c93c517b8fa9")
+		(uuid "0ad0f9ab-ae32-448c-b6a3-b7c2a9ad7343")
 	)
 	(pad "4" smd rect
 		(at 0 -3.099)
@@ -222,7 +222,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "a56dced6-f10e-457e-a31b-7bc40abb908b")
+		(uuid "8be6be45-303a-4de1-afa0-485466993ecc")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/SOT223.stp"
