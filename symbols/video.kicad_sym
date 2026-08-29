@@ -6523,9 +6523,10 @@
 			)
 		)
 		(property "Footprint" "Footprints:TQFP-32_5x5mm_p0.5mm"
-			(at 12.7 20.32 0)
+			(at 12.7 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -6555,14 +6556,15 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 0 0 0)
+		(property "Package" "TQFP-32_5x5mm_p0.5mm"
+			(at 12.7 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
+				(justify left bottom)
 			)
 		)
 		(symbol "TVP5150AM1_1_0"
@@ -6614,7 +6616,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -22.86 7.62 0)
 				(length 2.54)
 				(name "AIP1A"
@@ -6632,7 +6634,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -22.86 2.54 0)
 				(length 2.54)
 				(name "AIP1B"
@@ -6650,7 +6652,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -2.54 -30.48 90)
 				(length 2.54)
 				(name "PLL_AGND"
@@ -6668,7 +6670,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 0 22.86 270)
 				(length 2.54)
 				(name "PLL_AVDD"
@@ -6686,7 +6688,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -22.86 -22.86 0)
 				(length 2.54)
 				(name "XTAL1/OSC"
@@ -6704,7 +6706,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -22.86 -25.4 0)
 				(length 2.54)
 				(name "XTAL2"
@@ -6722,7 +6724,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 0 -30.48 90)
 				(length 2.54)
 				(name "AGND"
@@ -6740,7 +6742,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -22.86 15.24 0)
 				(length 2.54)
 				(name "~{RESETB}"
@@ -6758,7 +6760,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 25.4 -2.54 180)
 				(length 2.54)
 				(name "CLOCK"
@@ -6776,7 +6778,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 5.08 22.86 270)
 				(length 2.54)
 				(name "IO_DVDD"
@@ -6794,7 +6796,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 25.4 0 180)
 				(length 2.54)
 				(name "YOUT7/I2CSEL"
@@ -6812,7 +6814,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 25.4 2.54 180)
 				(length 2.54)
 				(name "YOUT6"
@@ -6830,7 +6832,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 25.4 5.08 180)
 				(length 2.54)
 				(name "YOUT5"
@@ -6848,7 +6850,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 25.4 7.62 180)
 				(length 2.54)
 				(name "YOUT4"
@@ -6866,7 +6868,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 25.4 10.16 180)
 				(length 2.54)
 				(name "YOUT3"
@@ -6884,7 +6886,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 25.4 12.7 180)
 				(length 2.54)
 				(name "YOUT2"
@@ -6902,7 +6904,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 25.4 15.24 180)
 				(length 2.54)
 				(name "YOUT1"
@@ -6920,7 +6922,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 25.4 17.78 180)
 				(length 2.54)
 				(name "YOUT0"
@@ -6938,7 +6940,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 2.54 -30.48 90)
 				(length 2.54)
 				(name "DGND"
@@ -6956,7 +6958,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -5.08 22.86 270)
 				(length 2.54)
 				(name "DVDD"
@@ -6974,7 +6976,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at 25.4 -22.86 180)
 				(length 2.54)
 				(name "SCL"
@@ -7010,7 +7012,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 25.4 -15.24 180)
 				(length 2.54)
 				(name "FIELD"
@@ -7028,7 +7030,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 25.4 -12.7 180)
 				(length 2.54)
 				(name "VSYNC"
@@ -7046,7 +7048,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 25.4 -10.16 180)
 				(length 2.54)
 				(name "HSYNC"
@@ -7064,7 +7066,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 25.4 -17.78 180)
 				(length 2.54)
 				(name "AVID"
@@ -7082,7 +7084,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 25.4 -7.62 180)
 				(length 2.54)
 				(name "INTREQ/GPCL/VBLK"
@@ -7100,7 +7102,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -22.86 17.78 0)
 				(length 2.54)
 				(name "~{PDN}"
@@ -7118,7 +7120,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -22.86 -15.24 0)
 				(length 2.54)
 				(name "REFP"
@@ -7136,7 +7138,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -22.86 -5.08 0)
 				(length 2.54)
 				(name "REFM"
@@ -7154,7 +7156,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 5.08 -30.48 90)
 				(length 2.54)
 				(name "CH_AGND"
@@ -7172,7 +7174,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -2.54 22.86 270)
 				(length 2.54)
 				(name "CH_AVDD"

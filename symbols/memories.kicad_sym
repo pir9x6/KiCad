@@ -762,7 +762,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Footprints:PLCC32"
+		(property "Footprint" "Footprints:PLCC-32_14.0x11.4mm"
 			(at 12.954 -19.558 0)
 			(show_name no)
 			(do_not_autoplace no)

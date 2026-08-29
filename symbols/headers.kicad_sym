@@ -2577,36 +2577,36 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "CN"
-			(at -6.35 26.035 0)
+			(at -7.62 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.5 1.5)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Value" "HEADER_1x20"
-			(at -6.35 -30.48 0)
+			(at -7.62 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.5 1.5)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Footprint"
-			(at 0 0 0)
+		(property "Footprint" "Footprints:HEADER_1X20_M_p2.54_TH_RA"
+			(at -7.62 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
@@ -2616,28 +2616,18 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
-		(property "Description" "PIN HEADER"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 17.272 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)

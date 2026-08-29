@@ -150,7 +150,7 @@
 					(justify left bottom)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -7.62 0 0)
 				(length 2.54)
 				(name "IN"
@@ -186,7 +186,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 7.62 0 180)
 				(length 2.54)
 				(name "OUT"
@@ -765,7 +765,7 @@
 					(justify left bottom)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -7.62 0 0)
 				(length 2.54)
 				(name "IN"
@@ -801,7 +801,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 7.62 0 180)
 				(length 2.54)
 				(name "OUT"
@@ -961,7 +961,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 0 -7.62 90)
 				(length 2.54)
 				(name "ADJ"
@@ -979,7 +979,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 7.62 0 180)
 				(length 2.54)
 				(name "OUT"
@@ -997,7 +997,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -7.62 0 0)
 				(length 2.54)
 				(name "IN"
