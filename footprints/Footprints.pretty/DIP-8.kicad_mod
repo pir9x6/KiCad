@@ -7,11 +7,11 @@
 		(at -5.334 2.921 90)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "fd6d3acb-3e3e-4c51-a8f8-a48f93d827eb")
+		(uuid "daa6fdcc-29d3-444c-978b-20978a6cb3c4")
 		(effects
 			(font
 				(size 1.143 1.143)
-				(thickness 0.127)
+				(thickness 0.2)
 			)
 			(justify left bottom)
 		)
@@ -20,7 +20,7 @@
 		(at -3.556 0.635 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "947d17cb-afb1-49b2-861c-c747af2082d0")
+		(uuid "a2b24f88-6ae6-48a1-8598-b1ebaee00fe3")
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c2bea2c6-9c70-4f90-841b-25cba607f874")
+		(uuid "43ab885d-e0d9-472a-baee-34d2d1feb2d0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ffcf80fc-4212-4bfb-b60f-2ca648e3146d")
+		(uuid "f948bf83-a1b9-4b57-baaa-3229d8ea020c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e24676cd-a811-4c98-ad1a-5bfe5372dd05")
+		(uuid "34b07671-d088-4e56-baf5-d1a6dfca145a")
 	)
 	(fp_line
 		(start -5.08 2.921)
@@ -70,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0fa25b2c-0623-4b56-a1ba-69381445a845")
+		(uuid "25cdf64c-a0e9-4200-8f62-385f3081be18")
 	)
 	(fp_line
 		(start -5.08 2.921)
@@ -80,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1c01e69a-4f07-4ad0-91d4-d681dd859a1c")
+		(uuid "e053d99c-e3d9-464b-8579-ee9400e75895")
 	)
 	(fp_line
 		(start 5.08 -2.921)
@@ -90,7 +90,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "dba4b866-f2bf-4bbc-82b0-3c8aa92f263d")
+		(uuid "1d9dbad8-a11b-4156-9626-a1c24647f458")
 	)
 	(fp_line
 		(start 5.08 -2.921)
@@ -100,7 +100,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ba0b960e-6887-483c-8941-c3e30893445c")
+		(uuid "364ef947-5e61-4ece-85f4-bb8487e892f3")
 	)
 	(fp_arc
 		(start -5.08 -1.016)
@@ -111,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1eb7ba96-a7af-4967-8c83-545baadfbfb6")
+		(uuid "5d81ed84-0632-4f1e-bc33-80399b358858")
 	)
 	(pad "1" thru_hole rect
 		(at -3.81 3.81 90)
@@ -121,7 +121,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "26606977-af9b-437b-a802-6aebe2466097")
+		(uuid "a3feb95f-7235-4170-97ec-fb8571b0a1c8")
 	)
 	(pad "2" thru_hole roundrect
 		(at -1.27 3.81 90)
@@ -134,7 +134,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "c733fbfa-959d-4f13-a255-23fadc9e6364")
+		(uuid "be2297c7-e7c6-41b6-85d0-e6a4fdc92a1a")
 	)
 	(pad "3" thru_hole roundrect
 		(at 1.27 3.81 90)
@@ -147,7 +147,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "68a4fea4-6984-478a-a19c-cc25c6ed9f8d")
+		(uuid "bdb38c94-6778-49f4-8ef8-57db83868cc4")
 	)
 	(pad "4" thru_hole roundrect
 		(at 3.81 3.81 90)
@@ -160,7 +160,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "14d50b3d-6b5d-4444-abd7-9c8043a79a2f")
+		(uuid "91f94fdd-67c6-4d4f-97a4-12215bbceb74")
 	)
 	(pad "5" thru_hole roundrect
 		(at 3.81 -3.81 90)
@@ -173,7 +173,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "89abd163-9470-4f7a-b701-95d23045e4ea")
+		(uuid "3750021d-1b56-4c5f-9809-6e871022d30f")
 	)
 	(pad "6" thru_hole roundrect
 		(at 1.27 -3.81 90)
@@ -186,7 +186,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "1df258c0-22db-4463-92b2-c6d318ae1bf8")
+		(uuid "e140d197-aabc-4729-90b3-6d79d199deb4")
 	)
 	(pad "7" thru_hole roundrect
 		(at -1.27 -3.81 90)
@@ -199,7 +199,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "e28e0bdc-e196-4850-b054-799b3f5e599e")
+		(uuid "ea525f98-ac1c-4714-8ffe-005d0355499b")
 	)
 	(pad "8" thru_hole roundrect
 		(at -3.81 -3.81 90)
@@ -212,7 +212,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "bf912bbb-5263-437d-a26c-2d0ac4b77b83")
+		(uuid "4f4ab126-b75f-4460-b4f2-5c81f4d73841")
 	)
 	(embedded_fonts no)
 )
