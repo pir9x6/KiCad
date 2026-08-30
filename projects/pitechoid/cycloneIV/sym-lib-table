@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "fpga_cycloneIV_v1-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/fpga_cycloneIV_v1-eagle-import.kicad_sym") (options "") (descr ""))
+)
