@@ -1,0 +1,112 @@
+(footprint "LED_5mm_RED"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LED\n\n5 mm, round")
+	(property "Reference" "REF**"
+		(at -3.175 -3.7084 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "660defce-05f3-4fd1-bdfd-35462fc4f3f8")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "LED_5mm_RED"
+		(at -3.7846 4.9784 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2448d457-2693-4c09-850f-1fe1a5516285")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd595944-e062-4cd9-a954-1319cfce1ccd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92cc4189-e7d8-4f5d-9254-5c1fa1104654")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_arc
+		(start 2.54 1.905)
+		(mid -3.175 0)
+		(end 2.54 -1.905)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76b36e55-bad0-4faf-8a61-436c25c7eb17")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bb017911-dc02-4d61-aa11-6538ca289ef0")
+	)
+	(fp_text user "K"
+		(at 2.54 0.508 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ae7afc9a-2842-4c27-b2e2-b17bb2c7d08b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "A" thru_hole oval
+		(at -1.27 0 90)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "4ce5e094-b1dc-47f4-a458-6dd88cccb246")
+	)
+	(pad "K" thru_hole oval
+		(at 1.27 0 90)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "e22ad038-4dec-413f-aaa5-d7ad4830ff73")
+	)
+	(embedded_fonts no)
+)

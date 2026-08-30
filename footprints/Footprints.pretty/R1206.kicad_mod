@@ -7,7 +7,7 @@
 		(at -1.905 -1.143 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "188ccbdc-bc93-466d-afe2-1e8cb0aff150")
+		(uuid "09e97992-7c29-4eb8-9deb-9db772651c60")
 		(effects
 			(font
 				(size 1 1)
@@ -19,8 +19,8 @@
 	(property "Value" "R1206"
 		(at -1.905 2.413 0)
 		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "29fda245-fe72-4761-9230-1729038e65c0")
+		(layer "User.2")
+		(uuid "a9e55def-f9bd-41df-8a1d-3f9278796de5")
 		(effects
 			(font
 				(size 0.747776 0.747776)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1594ff0a-0800-485c-86d4-fbaaeb67539e")
+		(uuid "4168773d-fbd3-400f-a1e4-90b0ade404e0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3366e1c6-19be-48d2-9282-dd496b8d7ee6")
+		(uuid "c6799445-9ae6-4782-a20f-d3064f435b67")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "765861ad-24d2-4d52-b3d1-f7e9d28d11c8")
+		(uuid "b5f28f65-b547-4dd9-a4e1-bb76579130bc")
 	)
 	(fp_line
 		(start -0.965 0.787)
@@ -71,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cb47cc2d-9faf-4a08-8d61-889a8b8d6823")
+		(uuid "75baedda-3585-4e05-ac7f-77de071685e0")
 	)
 	(fp_poly
 		(pts
@@ -83,7 +83,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "1e65a592-99a7-4279-a59d-6df934e3858d")
+		(uuid "a01dcf54-6549-4523-9812-852a4a7f8aee")
 	)
 	(fp_poly
 		(pts
@@ -95,7 +95,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "d62cad7b-de21-4e2f-9178-5adb34e3ed6b")
+		(uuid "360e38b7-0230-47f4-a20b-9bd35821c011")
 	)
 	(pad "1" smd rect
 		(at -1.4 0)
@@ -104,7 +104,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "3d8950f0-71e1-4f75-8823-2e1567b0e7f8")
+		(uuid "b15858a2-4e77-42c5-8fce-76d0df49abd4")
 	)
 	(pad "2" smd rect
 		(at 1.4 0)
@@ -113,7 +113,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "65787c44-832f-47d1-a5a8-ae1c675a7777")
+		(uuid "a041d971-70b4-4e5b-81d1-03a756182838")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/R1206.step"

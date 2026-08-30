@@ -7,7 +7,7 @@
 		(at -1.397 -0.635 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "4340d4d4-d638-485a-b4e2-2bcdc5d98cf6")
+		(uuid "49456c0d-8afe-44a9-a942-e6480d461b52")
 		(effects
 			(font
 				(size 1 1)
@@ -19,8 +19,8 @@
 	(property "Value" "R0402"
 		(at -1.397 1.27 0)
 		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "61c9d398-d1ed-4667-8198-4ec8d95ad9aa")
+		(layer "User.2")
+		(uuid "5c5b3c42-3e2c-4d6e-909a-afbc0b7a46fe")
 		(effects
 			(font
 				(size 0.560832 0.560832)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2cd8210a-99c3-4dd0-a28d-a0820c2a3819")
+		(uuid "565142ed-02d8-4ee2-8c8b-b75c31df1b59")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b9a1009c-d251-47e5-9618-f774e36dce1e")
+		(uuid "66fcbfaa-c052-4ea8-a85d-a2c4e46aef46")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "4cdaaa6d-db49-453e-955a-bef93014630f")
+		(uuid "281a4500-dc32-4325-aae4-261ab67f72f4")
 	)
 	(pad "2" smd rect
 		(at 0.65 0)
@@ -68,7 +68,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "aa5d9d89-5eeb-42d2-88f3-2e72f7f707ec")
+		(uuid "fd1f185a-5a66-474b-987e-d4c2173d2c9c")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/R0402.step"
