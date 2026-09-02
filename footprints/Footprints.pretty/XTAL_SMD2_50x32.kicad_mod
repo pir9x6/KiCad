@@ -1,0 +1,116 @@
+(footprint "XTAL_SMD2_50x32"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.54 -1.905 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9b8b7f97-b5d4-47a2-9a03-88b34169beca")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "OSC_SMD2_50X32"
+		(at -2.54 3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b75593a3-e342-479d-b353-ea1a35a68024")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24fbc926-3186-4447-bdf0-0915dfab474f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "900008ae-a4e1-4b44-a72b-e0fdbd436be9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.27 -1.5875)
+		(end 1.27 -1.5875)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee58e3bf-7dd0-4931-abbd-393bd112c123")
+	)
+	(fp_line
+		(start 1.27 1.5875)
+		(end -1.27 1.5875)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db4ef711-d16b-48fa-bb6c-763e4a73cd3f")
+	)
+	(fp_rect
+		(start -2.5 -1.6)
+		(end 2.5 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "efb84438-4701-4cb1-84e9-08ef0fa0f391")
+	)
+	(pad "1" smd rect
+		(at -3.175 0)
+		(size 2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "a75b5fdb-a043-43e7-b4a2-cf15a19cc1ec")
+	)
+	(pad "2" smd rect
+		(at 3.175 0 180)
+		(size 2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "d3fb634f-992f-4126-9ae5-6bbdadd023a1")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/XTAL_SMD2_50x32.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

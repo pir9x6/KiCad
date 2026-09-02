@@ -7,7 +7,7 @@
 		(at -1.905 -1.905 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "3d9d91b8-2b8f-4699-9dcf-3921391df59a")
+		(uuid "96f31bf6-b672-4820-8ff9-91345a020db6")
 		(effects
 			(font
 				(size 1.1684 1.1684)
@@ -20,7 +20,7 @@
 		(at -1.905 3.175 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "10938a3a-b033-4d11-bbe2-1c429cb48ef6")
+		(uuid "22d20065-948b-48b6-ba87-7b8de4368d6d")
 		(effects
 			(font
 				(size 1.1684 1.1684)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bc86e331-63c1-465b-bfb2-b7ac99df19be")
+		(uuid "9a3fc7b9-50f3-4039-bd2c-06ff097685f2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0d01ddbd-dd49-43c4-abd1-51202bf96462")
+		(uuid "2aa6ee48-f8aa-4bff-8815-bb2662a0569a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0e96f9c8-1aa3-4633-a011-92ba87a2e11f")
+		(uuid "0adb5020-a42e-4d72-bcb6-408c0841c993")
 	)
 	(fp_line
 		(start -1.4224 0.6604)
@@ -70,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "db1d0de1-968d-442c-b291-3d8b74eafd70")
+		(uuid "e161ea6e-bc95-4eeb-a133-8a9a5e3375d0")
 	)
 	(fp_line
 		(start 1.4224 -0.6604)
@@ -80,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c7947729-6538-4ff4-b40a-53060aeabd5a")
+		(uuid "3522b594-d317-4fcd-a329-046bc494f6a6")
 	)
 	(fp_line
 		(start 1.4224 0.6604)
@@ -90,7 +90,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1a9abdfb-fe18-4531-847c-c5a9bf9bd7e9")
+		(uuid "441e2859-dfd3-401f-8bf8-e90cff4e7b6a")
 	)
 	(fp_poly
 		(pts
@@ -102,7 +102,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "bc40a285-b6ca-461d-b1b1-5e75dbec13e3")
+		(uuid "dec93e51-96a7-4f25-a1d9-2a7627a05fa3")
 	)
 	(fp_poly
 		(pts
@@ -114,7 +114,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "98ba8bb9-c8e8-43e7-8c05-30136a67a86d")
+		(uuid "680b17eb-d6ce-4c61-b3b9-af23010c991b")
 	)
 	(fp_poly
 		(pts
@@ -126,7 +126,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "a9c45b3d-b87a-4a25-bfb6-c84b3f3cafd5")
+		(uuid "bf159b95-40e4-409f-8384-3dbb66a25388")
 	)
 	(pad "B" smd rect
 		(at -0.95 1.1)
@@ -135,7 +135,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "3637f5cc-50da-470d-9235-d8894b4e66ac")
+		(uuid "c8767099-9396-4433-9f28-7c5087014422")
 	)
 	(pad "C" smd rect
 		(at 0 -1.1)
@@ -144,7 +144,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "121e55d6-5a0b-452e-9e8b-2afa6d4989f6")
+		(uuid "8385b78e-4afd-48f3-a681-a099f021a2cc")
 	)
 	(pad "E" smd rect
 		(at 0.95 1.1)
@@ -153,7 +153,18 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "0c0b1a02-dcb0-48e1-9830-044db0f9c4c1")
+		(uuid "afb716f8-9ee4-48fb-8c60-6fa8f1050c41")
 	)
 	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/SOT-23-3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )

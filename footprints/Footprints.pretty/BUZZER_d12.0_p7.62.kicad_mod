@@ -1,0 +1,105 @@
+(footprint "BUZZER_d12.0_p7.62"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "Ref**"
+		(at 8.9 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "bab4bbac-1722-44c3-b247-a5d0eab34236")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 9 1.4 0)
+		(layer "F.Fab")
+		(uuid "235bb959-190b-4e98-b79c-83b6fbf26a94")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e3e861c-6427-4087-a088-cd34d5816f63")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a51c09aa-fea0-4387-85ba-315b989eda1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5d408504-b825-4f75-90e7-0377638ba801")
+	)
+	(fp_text user "+"
+		(at -7.6 0.601526 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0040db66-6450-477f-95fd-b1cd6d9b7dda")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "+" thru_hole circle
+		(at -3.81 0)
+		(size 1.4224 1.4224)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "33fefe4c-9d1a-4f0a-8ad6-9d9efc028838")
+	)
+	(pad "-" thru_hole circle
+		(at 3.81 0)
+		(size 1.4224 1.4224)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "0baf0114-d820-47ca-9c83-2cbb78d2a101")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/BUZZER_d12.0_p7.62.step"
+		(offset
+			(xyz -4 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
