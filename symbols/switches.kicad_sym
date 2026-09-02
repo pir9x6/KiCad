@@ -8,7 +8,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "S"
+		(property "Reference" "SW"
 			(at -2.54 -5.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -354,7 +354,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "S"
+		(property "Reference" "SW"
 			(at -5.08 -5.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -912,7 +912,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "S"
+		(property "Reference" "SW"
 			(at -5.715 -1.905 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1213,7 +1213,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" ""
+		(property "Reference" "SW"
 			(at -4.445 16.129 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1600,7 +1600,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "K"
+		(property "Reference" "RL"
 			(at 1.27 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2110,7 +2110,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "P"
+		(property "Reference" "SW"
 			(at -5.715 -1.905 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2132,8 +2132,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "switches:TACTILE_BUTTON_2P_SMD"
-			(at 0 0 0)
+		(property "Footprint" "Footprints:TACTILE_BUTTON_2P_SMD"
+			(at 17.78 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2155,7 +2155,7 @@
 			)
 		)
 		(property "Description" "TYCO SWITCH"
-			(at 0 0 0)
+			(at 8.128 -2.794 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2318,7 +2318,7 @@
 						)
 					)
 				)
-				(number "P$1"
+				(number "1"
 					(effects
 						(font
 							(size 0 0)
@@ -2336,7 +2336,7 @@
 						)
 					)
 				)
-				(number "P$2"
+				(number "2"
 					(effects
 						(font
 							(size 0 0)
@@ -2353,7 +2353,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "P"
+		(property "Reference" "SW"
 			(at -5.715 -1.905 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2596,7 +2596,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "P"
+		(property "Reference" "SW"
 			(at -5.715 -1.905 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2897,7 +2897,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "P"
+		(property "Reference" "SW"
 			(at -5.715 -1.905 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -529,7 +529,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.54 1.54)
+					(size 1.5 1.5)
 				)
 				(justify left)
 			)
@@ -540,18 +540,19 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.54 1.54)
+					(size 1.5 1.5)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "LED"
-			(at 2.54 -5.08 0)
+			(at 2.54 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
-					(size 1.54 1.54)
+					(size 1.5 1.5)
 				)
 				(justify left)
 			)
@@ -563,7 +564,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -574,18 +575,19 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
+		(property "Package" "Package"
+			(at 2.54 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
+				(justify left)
 			)
 		)
 		(symbol "LED_0_1"

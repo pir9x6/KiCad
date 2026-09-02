@@ -2590,7 +2590,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 5.08 22.86 0)
+			(at 2.54 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2601,7 +2601,7 @@
 			)
 		)
 		(property "Value" "MCP2200"
-			(at 5.08 20.32 0)
+			(at 2.54 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2611,11 +2611,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Footprints:SOIC20W"
-			(at 7.62 -20.32 0)
+		(property "Footprint" "Footprints:SOIC-20W"
+			(at 2.54 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -2643,17 +2642,6 @@
 				(font
 					(size 1.5 1.5)
 				)
-			)
-		)
-		(property "Package" "SOIC20W"
-			(at 5.08 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.5 1.5)
-				)
-				(justify left bottom)
 			)
 		)
 		(symbol "MCP2200_1_0"
