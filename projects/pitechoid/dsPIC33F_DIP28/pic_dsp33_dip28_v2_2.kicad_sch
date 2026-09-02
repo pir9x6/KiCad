@@ -1,0 +1,35 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5d1cded1-8bc8-45f3-b99c-0db4031ef161")
+	(paper "A4")
+	(lib_symbols)
+	(text "v1: Original creation"
+		(exclude_from_sim no)
+		(at 121.92 101.6 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "173cad24-1844-4036-9158-4575e288b960")
+	)
+	(text "v2: Modified ICD voltage from VDD to +3V3"
+		(exclude_from_sim no)
+		(at 121.92 106.68 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1d2a381-9b47-456c-ba47-2af4a9737f5f")
+	)
+	(sheet_instances
+		(path "/"
+			(page "2")
+		)
+	)
+)
